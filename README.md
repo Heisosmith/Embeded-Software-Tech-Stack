@@ -31,7 +31,7 @@ be to the senior embeded software engineer
 ## C Language
 C languages has small language set and simple grammer which easy to manster and use.
  
-### Composition:
+### Composition
 - entity
   - literal
   - constant
@@ -58,13 +58,13 @@ Generally, Program will execute all instruction one by one from start to end. Fl
 -  Jump keyword (goto/continue/break) will skip or terminate repeat, goto can jump to any instruction backed or fronted. goto fronted is repeat, goto backed is skip same code non executed.
 -  Call keyword will enter sub-routine to execute instruction one by one, when it executed end, goto the next instruction after call sub-routine.
 
-
+### Sample Code
 ```c
 enum Gender
 {
   MEM = 0;
-  WOMEN = 1
-  OTHER = 2
+  WOMEN = 1;
+  OTHER = 2;
 };
 
 struct PersonInfo
@@ -114,7 +114,7 @@ int main()
     }
     else
     {
-      // do nothing
+      break; // ternimate repeat
     }
     loop_times = loop_times + 1;
   }
